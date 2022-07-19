@@ -1,23 +1,41 @@
-header {
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Shippori Mincho', serif;
+}
+
+nav {
+    padding: 1rem; 
+}
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+nav ul {  
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav li, li a {
+    font-size: 1.2rem;
     display: inline;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .logo{
-    width: 50px;
+    width: 8rem;
+    height: 8rem;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.fa-cart-shopping {
+    font-size: xx-large;
+    color: #999999;
 }
 
-li {
-    display: inline;
-}
 
-a {
-    padding: 9px;
-    text-decoration: none;
-}
 
