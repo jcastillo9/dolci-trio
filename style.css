@@ -41,11 +41,10 @@ ul a:hover {
     font-size: xx-large;
     color: #999999;
 }
-.home {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-.home-img {
+
+.home-img {    
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     height: 80vh;
     background-image:url("images/second_image.png");
     background-size: cover;
@@ -82,14 +81,25 @@ p {
     border: none;
     color: white;
 }
-/* 
-#carouselExampleControls {
-    display: flex;
-    width: 50vw;
-    height: 80vh;
-}
-.carousel-inner img {
-    width: 33vw;
-} */
 
+.popular-items {
+    padding: 2rem;
+}
+h2 {
+    text-align: center;
+}
+.cards {    
+    display: flex;
+    justify-content: space-around;
+    padding: auto;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: none;
+    padding: 1rem;
+}
+.card-text {
+    text-align: center;
+}
 
