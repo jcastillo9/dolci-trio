@@ -36,7 +36,7 @@ ul a {
 ul a:hover {
     text-decoration: underline;
 }
-
+ b
 .fa-cart-shopping {
     font-size: xx-large;
     color: #999999;
@@ -60,7 +60,7 @@ ul a:hover {
     background: transparent;
     background-color: white;
     border-radius: 10px;
-    opacity: 60%;
+    opacity: 65%;
     padding:30px;
     text-align: center;
 }
@@ -74,7 +74,12 @@ p {
 }
 
 .order {
-    justify-content: center;
+    border-radius: 25px;
+    text-align: center;
+    padding: .75rem;
+    background-color:gray; 
+    border: none;
+    color: white;
 }
 /* 
 #carouselExampleControls {
