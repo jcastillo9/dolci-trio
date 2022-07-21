@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap');
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Shippori Mincho', serif;
+    font-family: 'Cormorant SC', serif;
 }
 
 nav {
@@ -24,17 +23,18 @@ ul {
 
 li {
     display:inline;
-    font-size: medium;
+    font-size: larger;
 }
 
 ul a {
     padding: 0 10px;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 ul a:hover {
     text-decoration: underline;
+    color: white;
 }
  b
 .fa-cart-shopping {
@@ -43,9 +43,9 @@ ul a:hover {
 }
 
 .home-img {    
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    height: 80vh;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    height: 70vh;
     background-image:url("images/second_image.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -85,10 +85,12 @@ p {
 .popular-items {
     margin: 2rem auto;
     padding: 2rem;
-    background-color: #edeee9;}
+    background-color: #f1f2f3;
+}
 
 h2 {
     text-align: center;
+    font-size: 2.5rem;
 }
 .cards {    
     display: flex;
@@ -102,12 +104,14 @@ h2 {
 }
 
 .card-body {
+    font-size: larger;
     text-align: center;
-    background-color: #edeee9;
+    background-color: #f1f2f3;
 }
 
 footer {
     padding: 2rem;
+    color: white;
     background-color: #aaaaaa;
     text-align: center;
 }
