@@ -43,6 +43,7 @@ ul a:hover {
 }
 .home {
     padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .home-img {
     height: 80vh;
