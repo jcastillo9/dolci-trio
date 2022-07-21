@@ -9,7 +9,7 @@
 nav {
     padding: 1rem 6rem;
     display: flex; 
-    background-color: #e9bfe3;
+    background-color: #e6c7c2;
 }
 .logo{
     width: 5rem;
@@ -25,7 +25,6 @@ ul {
 li {
     display:inline;
     font-size: medium;
-    display: inline;
 }
 
 ul a {
@@ -33,6 +32,7 @@ ul a {
     text-decoration: none;
     color: black;
 }
+
 ul a:hover {
     text-decoration: underline;
 }
@@ -55,7 +55,7 @@ ul a:hover {
 .text-block {
     position: absolute;
     bottom: 40%;
-    right: 4rem;
+    right: 8rem;
     color: black;
     background: transparent;
     background-color: white;
@@ -83,8 +83,10 @@ p {
 }
 
 .popular-items {
+    margin: 2rem auto;
     padding: 2rem;
-}
+    background-color: #edeee9;}
+
 h2 {
     text-align: center;
 }
@@ -96,10 +98,16 @@ h2 {
 }
 
 .card {
-    border: none;
-    padding: 1rem;
-}
-.card-text {
-    text-align: center;
+   border: none;
 }
 
+.card-body {
+    text-align: center;
+    background-color: #edeee9;
+}
+
+footer {
+    padding: 2rem;
+    background-color: #aaaaaa;
+    text-align: center;
+}
