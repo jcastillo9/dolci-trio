@@ -7,35 +7,83 @@
 }
 
 nav {
-    padding: 1rem; 
-}
-@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
-nav ul {  
+    padding: 1rem 6rem;
     display: flex; 
-    justify-content: space-evenly;
-    align-items: center;
+    background-color: #e9bfe3;
 }
-
-nav li, li a {
-    font-size: 1.2rem;
-    display: inline;
-    color: black;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
 .logo{
-    width: 8rem;
-    height: 8rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+ul { 
+    margin: auto;
+    text-align:right;
+    width: 100%;
+}
+
+li {
+    display:inline;
+    font-size: medium;
+    display: inline;
+}
+
+ul a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+ul a:hover {
+    text-decoration: underline;
 }
 
 .fa-cart-shopping {
     font-size: xx-large;
     color: #999999;
 }
+.home {
+    padding-top: 2rem;
+}
+.home-img {
+    height: 80vh;
+    background-image:url("images/second_image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+.text-block {
+    position: absolute;
+    bottom: 40%;
+    right: 4rem;
+    color: black;
+    background: transparent;
+    background-color: white;
+    border-radius: 10px;
+    opacity: 60%;
+    padding:30px;
+    text-align: center;
+}
 
+h4 {
+    font-size: 2.5rem;
+}
+
+p {
+    line-height: 1rem;
+}
+
+.order {
+    justify-content: center;
+}
+/* 
+#carouselExampleControls {
+    display: flex;
+    width: 50vw;
+    height: 80vh;
+}
+.carousel-inner img {
+    width: 33vw;
+} */
 
 
