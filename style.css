@@ -139,5 +139,13 @@ h5 {
 }
 
 .custom {
+    display: flex;
     border: 2px solid red;
+    padding: 1rem;
 }
+
+.custom-info {
+    border: 2px solid blue;
+}
+
+
