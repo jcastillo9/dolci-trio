@@ -129,7 +129,6 @@ footer {
     border-radius: 5px;
 }
 
-
 p {
     font-size: medium;
 }
@@ -137,4 +136,8 @@ p {
 h5 {
     font-size: larger;
     text-decoration: underline;
+}
+
+.custom {
+    border: 2px solid red;
 }
