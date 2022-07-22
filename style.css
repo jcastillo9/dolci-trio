@@ -21,7 +21,7 @@ ul {
     width: 100%;
 }
 
-li {
+.nav-ul li {
     display:inline;
     font-size: larger;
 }
@@ -92,7 +92,7 @@ h2 {
     text-align: center;
     font-size: 2.5rem;
 }
-.cards {    
+.cards, .items {    
     display: flex;
     justify-content: space-around;
     padding: auto;
@@ -116,3 +116,25 @@ footer {
     text-align: center;
 }
 
+.menu {
+    padding: 1rem;
+}
+
+.items .card {
+    margin: 2rem;
+}
+
+#menu-card {
+    border: .5px solid gray;
+    border-radius: 5px;
+}
+
+
+p {
+    font-size: medium;
+}
+
+h5 {
+    font-size: larger;
+    text-decoration: underline;
+}
