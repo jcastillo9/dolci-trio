@@ -198,11 +198,48 @@
         <div class="custom-info">
             <h2>Place your order</h2>
         </div>
-        <form action="https://formsubmit.co/janette.castillo91@yahoo.com" method="POST">
-            <input type="text" name="name" required>
-            <input type="email" name="email" required>
-            <button type="submit">Send</button>
-       </form>
+        <div class="form">
+            <p>Tell us more about your needs and we'll be in touch!</p>
+            <p>We will reach out to you to confirm your order.</p>
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Full Name</label>
+                    <input type="text" class="form-control" placeholder="John Smith" required>
+                  <label for="exampleFormControlInput1">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="start">Select Date and Time</label>
+                    <input type="datetime-local" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Order Type</label>
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Select order type</option>
+                    <option>Cake</option>
+                    <option>Cupcakes</option>
+                    <option>Cheesecake</option>
+                    <option>Sugar Cookies</option>
+                    <option>Brownies</option>
+                    <option>Cookies</option>
+                    <option>Chocolate Strawberries</option>
+                    <option>Breakable Chocolate Heart</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Additional Information</label>
+                  <textarea class="form-control" placeholder="Type here..."id="exampleFormControlTextarea1" rows="3" required></textarea>
+                  <p>Please include expected number of guests, theme or any other information you'd like us to include in your order.</p>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlFile1">Example file input</label>
+                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                    <p>Add any images.</p>
+                  </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        </div>
 
 </section>
 <!--Section: Contact v.2-->
@@ -230,6 +267,7 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
       
 </body>
+<script type="text/javascript" src="https://form.jotform.com/jsform/222066079676161"></script>
 <script src="script.js"></script>
 
 </html>
