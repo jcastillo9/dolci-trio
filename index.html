@@ -14,14 +14,14 @@
 </head>
 
 <body>
-    <header>
     <section id="home">
+    <header>
         <nav>
             <img class="logo" src="./images/logo.png" alt="logo">
             <ul class="nav-ul">
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#menu">MENU</a></li>
-                <li><a href="#custom">CUSTOM ORDERS</a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="order.html">CUSTOM ORDERS</a></li>
                 <li><a href="#faq">FAQ</a></li>
                 <li><a href="https://www.instagram.com/dolci_trio/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
             </ul>
@@ -66,7 +66,7 @@
             </div>
         </div>
     </section>
-    <section class="menu" id="menu">
+    <!-- <section class="menu" id="menu">
         <h2>Menu</h2>
         <div class="items">
             <div class="card" style="width: 500px; height: 250px;">
@@ -197,24 +197,23 @@
     <section id="custom" class="custom">
         <div class="custom-info">
             <h2>Place your order</h2>
+            <p>Tell us more about your needs and we'll be in touch! We will reach out to you to confirm your order.</p>
         </div>
         <div class="form">
-            <p>Tell us more about your needs and we'll be in touch!</p>
-            <p>We will reach out to you to confirm your order.</p>
             <form>
                 <div class="form-group">
-                    <label for="exampleFormControlInput1">Full Name</label>
+                    <label for="exampleFormControlInput1">Full Name <span>*</span></label>
                     <input type="text" class="form-control" placeholder="John Smith" required>
-                  <label for="exampleFormControlInput1">Email address</label>
+                  <label for="exampleFormControlInput1">Email address <span>*</span></label>
                   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
                 </div>
                 <div class="form-group">
-                    <label for="start">Select Date and Time</label>
-                    <input type="datetime-local" class="form-control" />
+                    <label for="start">Select Date and Time <span>*</span></label>
+                    <input type="datetime-local"/>
                 </div>
                 <div class="form-group">
-                  <label for="exampleFormControlSelect1">Order Type</label>
-                  <select class="form-control" id="exampleFormControlSelect1">
+                  <label for="exampleFormControlSelect1">Order Type <span>*</span></label>
+                  <select id="exampleFormControlSelect1">
                     <option>Select order type</option>
                     <option>Cake</option>
                     <option>Cupcakes</option>
@@ -228,22 +227,18 @@
                   </select>
                 </div>
                 <div class="form-group">
-                  <label for="exampleFormControlTextarea1">Additional Information</label>
-                  <textarea class="form-control" placeholder="Type here..."id="exampleFormControlTextarea1" rows="3" required></textarea>
-                  <p>Please include expected number of guests, theme or any other information you'd like us to include in your order.</p>
+                  <label for="exampleFormControlTextarea1">Additional Information <span>*</span></label>
+                  <textarea class="form-control" placeholder="Please include expected number of guests, theme or any other information you'd like us to include in your order."id="exampleFormControlTextarea1" rows="3" required></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlFile1">Example file input</label>
+                    <label for="exampleFormControlFile1">Inspiration Photos </label>
                     <input type="file" class="form-control-file" id="exampleFormControlFile1">
-                    <p>Add any images.</p>
                   </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
               </form>
         </div>
 
-</section>
-<!--Section: Contact v.2-->
-        </section>
+    </section> -->
         <footer>
             <div class="links">
                 <h3>Links</h3>
@@ -267,7 +262,6 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
       
 </body>
-<script type="text/javascript" src="https://form.jotform.com/jsform/222066079676161"></script>
 <script src="script.js"></script>
 
 </html>

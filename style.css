@@ -132,16 +132,17 @@ h5 {
 }
 
 .custom {
-    border: 2px solid red;
     padding: 1rem;
 }
 
 .custom-info {
-    border: 2px solid blue;
-}
-/* .form {
     text-align: center;
-} */
+}
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50rem;
+}
 
 footer {
     padding: 2rem 8rem ;
@@ -174,6 +175,10 @@ footer {
 }
 h3 {
     color: white;
+}
+
+span {
+    color: red;
 }
 
 
